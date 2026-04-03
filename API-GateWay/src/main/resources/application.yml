@@ -1,0 +1,16 @@
+#Application running port
+server:
+  port: 4004
+
+#Spring rest of the configuration
+spring :
+  application:
+    name: GateWay-Service
+
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    org.springframework.web: DEBUG
+    reactor.netty: DEBUG
+

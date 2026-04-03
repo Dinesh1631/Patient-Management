@@ -1,0 +1,22 @@
+# IDE (Eclipse / STS)
+.metadata/
+# Build files (Java)
+target/
+build/
+*.class
+# Packaged artifacts (optional ignore)
+*.jar
+*.war
+# Logs
+logs/
+*.log
+hs_err_pid*
+replay_pid*
+# OS files
+.DS_Store
+Thumbs.db
+# IDE (optional but recommended)
+.idea/
+.vscode/
+# Environment files
+.env

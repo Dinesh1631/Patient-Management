@@ -1,0 +1,5 @@
+grpc:
+  client:
+    billingService:
+      address: "static://Billing-Service-Continer:9001"
+      negotiationType: PLAINTEXT
